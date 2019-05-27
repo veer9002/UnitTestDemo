@@ -14,6 +14,7 @@
 		4F602D39229BDB7800E5D9A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F602D37229BDB7800E5D9A9 /* LaunchScreen.storyboard */; };
 		4F602D44229BDB7800E5D9A9 /* UnitTestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F602D43229BDB7800E5D9A9 /* UnitTestDemoTests.swift */; };
 		4F602D4F229BDB7800E5D9A9 /* UnitTestDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F602D4E229BDB7800E5D9A9 /* UnitTestDemoUITests.swift */; };
+		4F602D5D229BDBED00E5D9A9 /* PlayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F602D5C229BDBED00E5D9A9 /* PlayData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4F602D4A229BDB7800E5D9A9 /* UnitTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F602D4E229BDB7800E5D9A9 /* UnitTestDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestDemoUITests.swift; sourceTree = "<group>"; };
 		4F602D50229BDB7800E5D9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F602D5C229BDBED00E5D9A9 /* PlayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4F602D2E229BDB7700E5D9A9 /* AppDelegate.swift */,
 				4F602D30229BDB7700E5D9A9 /* ViewController.swift */,
+				4F602D5C229BDBED00E5D9A9 /* PlayData.swift */,
 				4F602D32229BDB7700E5D9A9 /* Main.storyboard */,
 				4F602D35229BDB7800E5D9A9 /* Assets.xcassets */,
 				4F602D37229BDB7800E5D9A9 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F602D5D229BDBED00E5D9A9 /* PlayData.swift in Sources */,
 				4F602D31229BDB7700E5D9A9 /* ViewController.swift in Sources */,
 				4F602D2F229BDB7700E5D9A9 /* AppDelegate.swift in Sources */,
 			);
